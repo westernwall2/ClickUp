@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body {
+    background: silver;
+}
+
+div.abas nav a {
+    display: inline-block;
+    padding: 3px 12px;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    color: black;
+}
+
+div.abas nav a:hover{
+    background: white;
+}
+
+div.abas nav a.focus,
+div.abas nav a:focus{
+    background: white;
+}
+
+div.abas div {
+    background: white;
+    padding: 10px;
+    display: none;
+}
+
+div.abas div:target {
+    display: block;
+}
