@@ -10,3 +10,4 @@ window.addEventListener('load', ()=>{
         document.querySelector(`a[href="${location.hash}"]`).classList.add('focus')
     }
 })
+
